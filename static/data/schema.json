@@ -1,0 +1,59 @@
+{
+  "data_modality": [
+    "tabular",
+    "image_2d",
+    "image_3d",
+    "text",
+    "graph"
+  ],
+  "task": [
+    "classification",
+    "regression",
+    "segmentation",
+    "object_instance_detection",
+    "forecasting",
+    "generation",
+    "control_decision_making"
+  ],
+  "data_volume": [
+    "small",
+    "medium",
+    "big"
+  ],
+  "constraints": [
+    "confidentiality",
+    "uncertainty_required",
+    "interpretability",
+    "speed",
+    "prior_knowledge_domain_laws",
+    "ood"
+  ],
+  "quality_labels": [
+    "missing_data",
+    "sparse_data",
+    "noisy_data",
+    "noisy_labels",
+    "noisy_or_limited_labels",
+    "uncertainty",
+    "distributed_federated",
+    "class_imbalance"
+  ],
+  "dynamics": [
+    "stationary",
+    "non_stationary"
+  ],
+  "compute_budget": [
+    "limited_pc_laptop",
+    "normal_small_gpu",
+    "large_hpc"
+  ],
+  "model_family": [
+    "foundation_self_supervised_transfer",
+    "physics_informed_hybrid",
+    "sequence_dynamics",
+    "graph_geometric_unstructured_meshes",
+    "explainability_uncertainty",
+    "generative_synthetic_augmentation",
+    "reinforcement_learning_agent_based"
+  ]
+}

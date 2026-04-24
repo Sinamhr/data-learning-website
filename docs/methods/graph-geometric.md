@@ -1,0 +1,12 @@
+---
+title: Graph-based methods, geometric models and unstructured meshes
+sidebar_position: 5
+---
+
+Many traditional machine learning models rely on grid-like data structures and Euclidean assumptions. In contrast, graph-based and geometric methods extend learning to unstructured and non-Euclidean domains, where relationships between data points can be irregular, relational, or spatially complex. In such representations, data are modeled as graphs composed of nodes and edges, where nodes represent entities and edges encode relationships between them.
+
+This framework is applicable across a wide range of structured and unstructured domains. For example, molecules can be represented as graphs of atoms connected by chemical bonds, while social networks represent individuals linked through social relationships. Similarly, scientific computing applications often involve unstructured meshes or spatial discretisations that cannot be naturally expressed on regular grids. Graph-based methods leverage the innate properties of these structures to preserve relational information and exploit invariances such as translation, rotation, or permutation.
+
+Graph neural networks extend neural architectures to such settings by learning representations that incorporate both node features and graph topology. Common tasks include node classification, link prediction, and graph-level property prediction. Early approaches to graph convolution, such as spectral methods, operate on global graph representations but may suffer from limited generalisability. In contrast, spatial or neighbourhood-based methods, such as GraphSAGE, use local message passing and aggregation, although they can encounter challenges such as over-smoothing or representational collapse as effective neighbourhood size increase with model depth.
+
+More recent developments incorporate attention mechanisms, enabling models to weigh the relative importance of neighbouring nodes. Graph Attention Networks introduce local attention, while graph transformer architectures extend this idea to capture long-range dependencies. These advances have significantly expanded the applicability of graph-based learning, particularly in settings where relational structure and non-Euclidean geometry are central to the problem.

@@ -1,0 +1,32 @@
+# Dependencies
+/node_modules
+
+# Production build
+/build
+
+# Docusaurus generated files
+/.docusaurus
+/.cache-loader
+
+# Local dataset / generated data for the wizard
+/static/data/ai_papers_min.json
+/static/data/papers_min.json
+
+# macOS
+.DS_Store
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor / misc
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,12 @@
+---
+title: Sequence and dynamics-based models
+sidebar_position: 4
+---
+
+Sequence and dynamics-based models are designed to capture patterns in ordered data, where observations occur sequentially and exhibit temporal dependence. Unlike conventional machine learning approaches that assume independent samples, these models explicitly represent evolving system states and dependencies across time. This makes them particularly well suited to applications in which context accumulates or where past behaviour influences future outcomes, such as time-series forecasting, language modelling, and spatiotemporal analysis.
+
+Early approaches in this domain include hidden Markov models, which represent sequences as transitions between latent states that probabilistically generate observations. These methods provide a principled framework for modelling temporal processes under uncertainty, particularly when the underlying system is only partially observed. Building on this foundation, neural sequence models – most notably recurrent neural networks (RNNs) – introduced the ability to learn temporal dependencies directly from data. RNNs maintain an internal hidden state that acts as a memory of previous inputs, allowing information from earlier time steps to influence subsequent predictions.
+
+Extensions such as long short-term memory networks and gated recurrent units address limitations in standard RNNs by introducing mechanisms that regulate the flow of information, thereby enabling the capture of longer-range dependencies. More recently, attention-based architectures, particularly transformers, have further advanced sequence modelling by allowing models to learn relationships between distant elements within a sequence without relying on strictly sequential processing.
+
+Historically, these approaches evolved from stochastic process modelling and classical time-series analysis, including Markovian frameworks and the Box-Jenkins methodology. The transition from probabilistic graphical models to neural architectures has enabled the modelling of increasingly complex and long-range dependencies, culminating in modern deep learning approaches capable of learning rich dynamic representations from large-scale data. As such, sequence and dynamics-based models represent a natural progression from classical statistical methods to contemporary data-driven approaches for temporal systems.

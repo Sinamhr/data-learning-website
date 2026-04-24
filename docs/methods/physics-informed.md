@@ -1,0 +1,10 @@
+---
+title: Physics-informed and hybrid models
+sidebar_position: 3
+---
+
+Physics-informed neural networks (PINNs) and related approaches combine data-driven AI models with prior scientific knowledge, encompassing models that learn representations of dynamic physical systems by following a set of known governing laws, symmetries or conservation principles. Introduced in 2019, these methods exploit the capabilities of neural networks as universal function approximators by leveraging the underlying physical laws, constraining the solution space to physically plausible behaviours.  In practice, this is often achieved by incorporating the residuals of governing equations into the loss function, allowing the model to satisfy both observational data and physical laws simultaneously.
+
+This class of approaches encompasses physics-constrained learning, hybrid mechanistic-machine learning models, and simulation-guided approaches. In hybrid settings, data-driven components are combined with symbolic or mechanistic representations, while simulation-guided learning uses outputs from physically grounded numerical models to train surrogate approximators. These approaches can substantially improve data efficiency, typically reducing data volume requirements and supporting more reliable extrapolation performance, particularly in domains with strong theoretical foundations.
+
+However, such models also introduce additional complexity, with challenges in training , especially for high-dimensional or complex partial differential equation systems, and performance being critically dependent on the validity of the underlying physical assumptions. Despite these limitations, physics-informed and hybrid methods can offer advantages in terms of interpretability, stability, and consistency with known system behaviour. They have therefore proved to be well suited to applications in scientific computing, including fluid dynamics, climate modelling, chemistry, and biomedical systems.
