@@ -18,3 +18,9 @@ Selecting appropriate machine learning or deep learning models for real-world pr
 ## About this website
 
 This site is designed as a companion to the paper. The wizard provides a structured route through the decision framework, while the methods, concepts, and data-challenge pages provide the supporting context and literature.
+
+
+## Repository
+
+The website source code is available on GitHub:  
+[github.com/Sinamhr/data-learning-website](https://github.com/Sinamhr/data-learning-website)
