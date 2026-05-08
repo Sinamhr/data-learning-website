@@ -3,7 +3,7 @@ title: Confidential data
 sidebar_position: 8
 ---
 
-CConfidential data refers to all information that requires protection due to its sensitive nature and the context in which it is used. It is often specified as confidential for legal, regulatory, or ethical reasons. This category includes, but is not limited to, personal information, financial records, business strategies, trade secrets, and other proprietary information. Unlike other data challenges discussed in this review and previously in [Lever et al. (2025)](https://doi.org/10.1016/j.jocs.2024.102523), confidentiality has recently emerged as a central concern in AI workflows. We consider it in greater detail here to reflect its increasing importance in data-driven research and practice, as unauthorised access, theft, alteration, deletion, data leakage, and misuse of this information can cause damage to all parties responsible for its ownership, processing, or protection.
+Confidential data refers to all information that requires protection due to its sensitive nature and the context in which it is used. It is often specified as confidential for legal, regulatory, or ethical reasons. This category includes, but is not limited to, personal information, financial records, business strategies, trade secrets, and other proprietary information.
 
 The risks to the confidentiality, integrity, or availability of data and information systems have intensified with the deployment of AI technologies that are used across multiple domains and trained on vast amounts of data, often drawn from public and proprietary sources that may contain confidential information. These risks encompass the entire data handling lifecycle, including collection, processing, model training, deployment, and storage.
 
