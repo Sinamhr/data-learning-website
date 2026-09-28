@@ -8695,5 +8695,269 @@
       "foundation_self_supervised_transfer"
     ],
     "is_multimodal": false
+  },
+  {
+    "id": "GR_Ullrich2025Validation",
+    "title": "Recommendations for Comprehensive and Independent Evaluation of Machine Learning-Based Earth System Models",
+    "include_in_paper": true,
+    "doi": "10.1029/2024JH000496",
+    "url": null,
+    "year": "2025",
+    "authors_raw": "P. A. Ullrich and E. A. Barnes and W. D. Collins and K. Dagon and S. Duan and J. Elms and J. Lee and L. R. Leung and D. Lu and M. J. Molina and T. A. O\u2019Brien and F. O. Rebassoo",
+    "author_surnames": [
+      "Ullrich",
+      "Barnes",
+      "Collins",
+      "Dagon",
+      "Duan",
+      "Elms",
+      "Lee",
+      "Leung",
+      "Lu",
+      "Molina",
+      "O\u2019Brien",
+      "Rebassoo"
+    ],
+    "citation_short": "Ullrich et al., 2025",
+    "data_modality_mask": 1,
+    "task_mask": 0,
+    "data_volume_mask": 7,
+    "constraints_mask": 16,
+    "quality_labels_mask": 0,
+    "dynamics_mask": 3,
+    "compute_budget_mask": 0,
+    "model_family_mask": 32,
+    "data_modality": [
+      "tabular"
+    ],
+    "task": [],
+    "data_volume": [
+      "big",
+      "medium",
+      "small"
+    ],
+    "constraints": [
+      "prior_knowledge_domain_laws"
+    ],
+    "quality_labels": [],
+    "dynamics": [
+      "non_stationary",
+      "stationary"
+    ],
+    "compute_budget": [],
+    "model_family": [
+      "generative_synthetic_augmentation"
+    ],
+    "is_multimodal": false
+  },
+  {
+    "id": "PL_fang2021ppml",
+    "title": "Privacy Preserving Machine Learning with Homomorphic Encryption and Federated Learning",
+    "include_in_paper": false,
+    "doi": "10.3390/fi13040094",
+    "url": null,
+    "year": "2021",
+    "authors_raw": "Fang, Haokun and Qian, Quan",
+    "author_surnames": [
+      "Fang",
+      "Qian"
+    ],
+    "citation_short": "Fang and Qian, 2021",
+    "data_modality_mask": 1,
+    "task_mask": 3,
+    "data_volume_mask": 6,
+    "constraints_mask": 9,
+    "quality_labels_mask": 64,
+    "dynamics_mask": 1,
+    "compute_budget_mask": 4,
+    "model_family_mask": 16,
+    "data_modality": [
+      "tabular"
+    ],
+    "task": [
+      "classification",
+      "regression"
+    ],
+    "data_volume": [
+      "big",
+      "medium"
+    ],
+    "constraints": [
+      "confidentiality",
+      "speed"
+    ],
+    "quality_labels": [
+      "distributed_federated"
+    ],
+    "dynamics": [
+      "stationary"
+    ],
+    "compute_budget": [
+      "large_hpc"
+    ],
+    "model_family": [
+      "explainability_uncertainty"
+    ],
+    "is_multimodal": false
+  },
+  {
+    "id": "PL_adnan2022fldp",
+    "title": "Federated learning and differential privacy for medical image analysis",
+    "include_in_paper": false,
+    "doi": "10.1038/s41598-022-05539-7",
+    "url": null,
+    "year": "2022",
+    "authors_raw": "Adnan, Mohammed and Kalra, Shivam and Cresswell, Jesse C and Taylor, Graham W and Tizhoosh, Hamid R",
+    "author_surnames": [
+      "Adnan",
+      "Kalra",
+      "Cresswell",
+      "Taylor",
+      "Tizhoosh"
+    ],
+    "citation_short": "Adnan et al., 2022",
+    "data_modality_mask": 2,
+    "task_mask": 5,
+    "data_volume_mask": 4,
+    "constraints_mask": 33,
+    "quality_labels_mask": 80,
+    "dynamics_mask": 1,
+    "compute_budget_mask": 4,
+    "model_family_mask": 17,
+    "data_modality": [
+      "image_2d"
+    ],
+    "task": [
+      "classification",
+      "segmentation"
+    ],
+    "data_volume": [
+      "big"
+    ],
+    "constraints": [
+      "confidentiality",
+      "ood"
+    ],
+    "quality_labels": [
+      "distributed_federated",
+      "noisy_or_limited_labels"
+    ],
+    "dynamics": [
+      "stationary"
+    ],
+    "compute_budget": [
+      "large_hpc"
+    ],
+    "model_family": [
+      "explainability_uncertainty",
+      "foundation_self_supervised_transfer"
+    ],
+    "is_multimodal": false
+  },
+  {
+    "id": "PL_erdemir2021privacyRL",
+    "title": "Privacy-Aware Time-Series Data Sharing With Deep Reinforcement Learning",
+    "include_in_paper": false,
+    "doi": "10.1109/TIFS.2020.3013200",
+    "url": null,
+    "year": "2020",
+    "authors_raw": "Erdemir, Ecenaz and Dragotti, Pier Luigi and G{\\",
+    "author_surnames": [
+      "Erdemir",
+      "Dragotti",
+      "G{\\"
+    ],
+    "citation_short": "Erdemir et al., 2020",
+    "data_modality_mask": 1,
+    "task_mask": 64,
+    "data_volume_mask": 6,
+    "constraints_mask": 0,
+    "quality_labels_mask": 20,
+    "dynamics_mask": 3,
+    "compute_budget_mask": 6,
+    "model_family_mask": 64,
+    "data_modality": [
+      "tabular"
+    ],
+    "task": [
+      "control_decision_making"
+    ],
+    "data_volume": [
+      "big",
+      "medium"
+    ],
+    "constraints": [],
+    "quality_labels": [
+      "noisy_data",
+      "noisy_or_limited_labels"
+    ],
+    "dynamics": [
+      "non_stationary",
+      "stationary"
+    ],
+    "compute_budget": [
+      "large_hpc",
+      "normal_small_gpu"
+    ],
+    "model_family": [
+      "reinforcement_learning_agent_based"
+    ],
+    "is_multimodal": false
+  },
+  {
+    "id": "PL_gong2023fRL_dp",
+    "title": "Federated Inverse Reinforcement Learning for Smart ICUs With Differential Privacy",
+    "include_in_paper": false,
+    "doi": "10.1109/JIOT.2023.3281347",
+    "url": null,
+    "year": "2023",
+    "authors_raw": "Gong, Wei and Cao, Linxiao and Zhu, Yifei and Zuo, Fang and He, Xin and Zhou, Haoquan",
+    "author_surnames": [
+      "Gong",
+      "Cao",
+      "Zhu",
+      "Zuo",
+      "He",
+      "Zhou"
+    ],
+    "citation_short": "Gong et al., 2023",
+    "data_modality_mask": 1,
+    "task_mask": 64,
+    "data_volume_mask": 6,
+    "constraints_mask": 1,
+    "quality_labels_mask": 78,
+    "dynamics_mask": 3,
+    "compute_budget_mask": 4,
+    "model_family_mask": 64,
+    "data_modality": [
+      "tabular"
+    ],
+    "task": [
+      "control_decision_making"
+    ],
+    "data_volume": [
+      "big",
+      "medium"
+    ],
+    "constraints": [
+      "confidentiality"
+    ],
+    "quality_labels": [
+      "distributed_federated",
+      "noisy_data",
+      "noisy_labels",
+      "sparse_data"
+    ],
+    "dynamics": [
+      "non_stationary",
+      "stationary"
+    ],
+    "compute_budget": [
+      "large_hpc"
+    ],
+    "model_family": [
+      "reinforcement_learning_agent_based"
+    ],
+    "is_multimodal": false
   }
 ]
