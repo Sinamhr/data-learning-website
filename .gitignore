@@ -8,9 +8,6 @@
 /.docusaurus
 /.cache-loader
 
-# Local dataset / generated data for the wizard
-/static/data/ai_papers_min.json
-/static/data/papers_min.json
 
 # macOS
 .DS_Store

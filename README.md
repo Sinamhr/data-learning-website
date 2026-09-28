@@ -2,7 +2,7 @@
 
 This repository contains the source code for the **Data Learning** companion website. 
 
-**Website:** http://rossellaarcucci.com/data-learning/
+**Website:** https://data-learning.rossellaarcucci.com/
 
 The website is designed to support a review-style paper [Link to the paper: coming soon] by providing:
 
@@ -32,14 +32,12 @@ The wizard is based on a tagged paper collection.
 
 ## Project scope
 
-This repository contains the **website code and content structure** only.
+This repository contains the website source plus the **minimal runtime JSON files** required by the browser-based wizard.
 
 It does **not** include:
-- the full tagging datasets,
-- generated JSON data files that are maintained separately,
-- or other shared project assets that are not owned by a single contributor.
-
-These data resources are intentionally excluded from version control.
+- the full/source tagging datasets,
+- private or confidential project data,
+- or shared project assets that are not intended for public distribution.
 
 ## Main features
 

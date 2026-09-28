@@ -6,11 +6,11 @@ const config: Config = {
   tagline: 'A guided framework for choosing methods based on your data, task, and constraints.',
   favicon: 'img/logo.svg',
 
-  url: 'https://rossellaarcucci.com',
-  baseUrl: '/data-learning/',
+  url: 'https://data-learning.rossellaarcucci.com',
+  baseUrl: '/',
 
-  organizationName: 'your-org',
-  projectName: 'data-learning',
+  organizationName: 'Sinamhr',
+  projectName: 'data-learning-website',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
