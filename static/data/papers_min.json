@@ -8959,5 +8959,151 @@
       "reinforcement_learning_agent_based"
     ],
     "is_multimodal": false
+  },
+  {
+    "id": "SM_gorishniy2021revisiting",
+    "title": "Revisiting deep learning models for tabular data",
+    "include_in_paper": true,
+    "doi": "10.48550/arXiv.2106.11959",
+    "url": null,
+    "year": "2021",
+    "authors_raw": "Gorishniy, Yury and Rubachev, Ivan and Khrulkov, Valentin and Babenko, Artem",
+    "author_surnames": [
+      "Gorishniy",
+      "Rubachev",
+      "Khrulkov",
+      "Babenko"
+    ],
+    "citation_short": "Gorishniy et al., 2021",
+    "data_modality_mask": 1,
+    "task_mask": 3,
+    "data_volume_mask": 6,
+    "constraints_mask": 0,
+    "quality_labels_mask": 0,
+    "dynamics_mask": 1,
+    "compute_budget_mask": 6,
+    "model_family_mask": 16,
+    "data_modality": [
+      "tabular"
+    ],
+    "task": [
+      "classification",
+      "regression"
+    ],
+    "data_volume": [
+      "big",
+      "medium"
+    ],
+    "constraints": [],
+    "quality_labels": [],
+    "dynamics": [
+      "stationary"
+    ],
+    "compute_budget": [
+      "large_hpc",
+      "normal_small_gpu"
+    ],
+    "model_family": [
+      "explainability_uncertainty"
+    ],
+    "is_multimodal": false
+  },
+  {
+    "id": "SM_grinsztajn2022tree",
+    "title": "Why do tree-based models still outperform deep learning on typical tabular data?",
+    "include_in_paper": true,
+    "doi": "10.52202/075280-3337",
+    "url": null,
+    "year": "2022",
+    "authors_raw": "Grinsztajn, L{\\'e",
+    "author_surnames": [
+      "Grinsztajn"
+    ],
+    "citation_short": "Grinsztajn, 2022",
+    "data_modality_mask": 1,
+    "task_mask": 3,
+    "data_volume_mask": 6,
+    "constraints_mask": 0,
+    "quality_labels_mask": 0,
+    "dynamics_mask": 1,
+    "compute_budget_mask": 6,
+    "model_family_mask": 16,
+    "data_modality": [
+      "tabular"
+    ],
+    "task": [
+      "classification",
+      "regression"
+    ],
+    "data_volume": [
+      "big",
+      "medium"
+    ],
+    "constraints": [],
+    "quality_labels": [],
+    "dynamics": [
+      "stationary"
+    ],
+    "compute_budget": [
+      "large_hpc",
+      "normal_small_gpu"
+    ],
+    "model_family": [
+      "explainability_uncertainty"
+    ],
+    "is_multimodal": false
+  },
+  {
+    "id": "SM_mcelfresh2023when",
+    "title": "When do neural nets outperform boosted trees on tabular data?",
+    "include_in_paper": true,
+    "doi": "10.52202/075280-3337",
+    "url": null,
+    "year": "2023",
+    "authors_raw": "McElfresh, Duncan and Khandagale, Sujay and Valverde, Jonathan and Prasad C, Vishak and Ramakrishnan, Ganesh and Goldblum, Micah and White, Colin",
+    "author_surnames": [
+      "McElfresh",
+      "Khandagale",
+      "Valverde",
+      "Prasad C",
+      "Ramakrishnan",
+      "Goldblum",
+      "White"
+    ],
+    "citation_short": "McElfresh et al., 2023",
+    "data_modality_mask": 1,
+    "task_mask": 3,
+    "data_volume_mask": 6,
+    "constraints_mask": 0,
+    "quality_labels_mask": 0,
+    "dynamics_mask": 1,
+    "compute_budget_mask": 7,
+    "model_family_mask": 17,
+    "data_modality": [
+      "tabular"
+    ],
+    "task": [
+      "classification",
+      "regression"
+    ],
+    "data_volume": [
+      "big",
+      "medium"
+    ],
+    "constraints": [],
+    "quality_labels": [],
+    "dynamics": [
+      "stationary"
+    ],
+    "compute_budget": [
+      "large_hpc",
+      "limited_pc_laptop",
+      "normal_small_gpu"
+    ],
+    "model_family": [
+      "explainability_uncertainty",
+      "foundation_self_supervised_transfer"
+    ],
+    "is_multimodal": false
   }
 ]
